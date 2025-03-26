@@ -4,3 +4,13 @@ MD
 .form-control::placeholder {
   color: gray;
 }
+a {
+  color: inherit;
+  text-decoration: none;
+}
+/* APPUNTI
+
+SISTEMA COL, TODO E FAQ SONO COL DIVERSE IMO
+SISTEMA D FLEX DEI DROPDOWN
+
+*/
