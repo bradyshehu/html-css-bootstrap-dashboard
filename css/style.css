@@ -1,3 +1,6 @@
 /* CONTAINER
 MD 
 */
+.form-control::placeholder {
+  color: gray;
+}
