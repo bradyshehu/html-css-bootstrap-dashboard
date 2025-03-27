@@ -78,7 +78,7 @@
     <main>
       <section class="container-md py-4 border-bottom">
         <h1>Nuovo libro</h1>
-        <form class="row g-4 mb-5">
+        <form class="row g-4 mb-3">
           <div class="col-6">
             <label for="inputNome" class="form-label">Nome Autore</label>
             <input
@@ -141,8 +141,34 @@
             />
           </div>
         </form>
-        <form class="row g-3">
-
+      </section>
+      <section class="container-md py-3">
+        <div class="row g-3 py-3">
+          <form class="col-12">
+            <div class="form-group mb-3">
+              <label class="mb-2" for="Note">Note</label>
+              <textarea class="form-control" id="Note" rows="5">
+Inserisci eventuali note sul libro</textarea
+              >
+            </div>
+            <div class="form-group mb-3">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault">
+                  Disponibile anche in digitale
+                </label>
+              </div>
+            </div>
+            <a href="./index.html" class="btn btn-primary" type="submit">
+              Aggiungi libro
+            </a>
+          </form>
+        </div>
       </section>
     </main>
     <script
